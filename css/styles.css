@@ -245,6 +245,10 @@ header > .container {
   margin-bottom: 10px;
 }
 
+.feature-text {
+  margin-bottom: 0;
+}
+
 /* Чем мы занимаемся - activities */
 
 .activities {
@@ -304,6 +308,7 @@ header > .container {
 
 .team-card {
   padding: 30px 59px 30px 60px;
+  background-color: var(--dark-bg-text-color);
 }
 
 /* Портфолио */
@@ -393,11 +398,13 @@ header > .container {
   color: var(--dark-bg-text-color);
 }
 
-.address-footer p,
-.address-footer li {
+.address-footer p {
   margin-bottom: 9px;
 }
 
+.e-mail-footer {
+  margin-bottom: 9px;
+}
 .e-mail-phone-footer {
   color: rgba(255, 255, 255, 0.6);
 }
